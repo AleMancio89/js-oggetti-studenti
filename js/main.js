@@ -51,7 +51,7 @@ for(var i = 0; i < studenti.length; i++){
 
 //Gestisco l'inserimento da parte dell'utente di un nuovo oggetto studente
 
-var nuovoStudente = [];
+var nuovoStudente = {};
 
 nuovoStudente.nome = prompt('Inserisci il nome del nuovo studente');
 nuovoStudente.cognome = prompt('Inserisci il cognome del nuovo studente');
